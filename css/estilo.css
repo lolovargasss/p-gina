@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-um: #5882FA;
+    --cor-dois: #01DFD7;
+    --cor-tres: #F5F5F5;
+    --cor-quatro: #00FFFF;
+    --cor-cinco: #BDBDBD;
+    --cor-seis: #04B4AE;
+    --cor-sete: #81F7F3;
+}
+#foto-perfil{
+    border-radius: 200px;
+    height: 200px;
+    border: solid 5px white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+html, 
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#seguir{
+    padding: 4 rem 32 px;
+    text-align: center;
+    padding: 3rem;
+}
+#seguir a{
+    background: linear-gradient(to bottom, var(--cor-quatro), var(--cor-dois));
+    border-radius: 100px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 10px;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+#nomeefunçao{
+    text-transform: uppercase;
+    color: white;
+}
+header{
+    height: 100%;
+    background: linear-gradient( var(--cor-sete) 70%, white 30%)}
+#texto{
+    flex-direction: column;
+    background-color: var(--cor-tres);
+}
+#espaço-titulo{
+    padding: 2.5rem;
+}
+.numero{
+    color: var(--cor-quatro);
+}
+.texto-numero{
+    color: var(--cor-cinco);
+}
+#numeros-sociais{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+#numero-seguidores{
+    padding-right: 100px;
+}
+#texto{
+    padding: 3rem;
+}
